@@ -1,0 +1,45 @@
+/* Utilitys */
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+.sb {
+    font: var(--subtitle);
+}
+
+.sb span {
+    color: var(--red);
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.title-md{
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.direction-column{
+    flex-direction: column;
+}

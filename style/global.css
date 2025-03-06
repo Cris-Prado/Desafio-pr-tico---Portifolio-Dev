@@ -1,0 +1,111 @@
+:root {
+    /* Cores Principais */
+    --red:#E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /* Cores Base */
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    /* Fontes */
+    --font-family-Asap: "Asap", sans-serif;
+    --font-family-Inconsolata: "Inconsolata", monospace;
+    --font-family-Maven-Pro: "Maven Pro", sans-serif;
+
+    /* Titulos */
+    --title-lg: bold 56px/120% var(--font-family-Asap);
+    --title-md: bold 24px/120% var(--font-family-Asap);
+    --title-sm: bold 16px/120% var(--font-family-Asap);
+
+    /* Subtitulos */
+    --subtitle: 20px/120% var(--font-family-Inconsolata);
+
+    /* Textos */
+    --text-md: 16px/140% var(--font-family-Maven-Pro);
+    --text-sm: 14px/140% var(--font-family-Maven-Pro);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #E2E4E9;
+}
+
+header {
+    background-image: url(/assets/Background_Intro.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 750px;
+    
+    .container {
+        max-width: 1040px;
+    }
+
+    figure {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #avatar{
+        margin-top: 120px;
+        width: 112px;
+        aspect-ratio: 1/1;
+    }
+
+    figcaption{
+        max-width: 680px;
+
+
+        .infotext {
+            margin-block: 56px 20px;
+            gap: 8px;
+        }
+
+        p{
+            color: var(--gray-400);
+    
+        }
+    }
+
+    .technology{
+        display: flex;
+        margin-block: 80px 90px;
+        justify-content: center;
+        gap: 16px;
+        .icontec{
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 16px;
+            height: 40px;
+            border-radius: 999px;
+            background-color: var(--gray-300);
+            color: var(--gray-500);
+
+            font: var(--text-md);
+            text-transform: capitalize;
+            img{
+                height:24px;
+                width: 24px;
+            }
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
