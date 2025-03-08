@@ -180,12 +180,20 @@ main{
         }
     }
 
-    .contact {
-        margin-block:128px 200px;
-        gap: 48px;
+    /* .contact {
+        background-image: url(/assets/Background_Contacts.png);
+        background-size: cover;
+        width: 100%;
+        justify-content: center;
+        height: 787px;
 
-        &>div{
+
+
+        .headcontact{
             text-align: center;
+            margin-top: 128px;
+            height: 91px;
+            border: solid;
         }
 
         .redesbox{
@@ -209,6 +217,41 @@ main{
             }
         }
 
+    } */
+
+    .contact{
+        display: grid;
+        width: 100%;
+        gap: 48px;
+        background-image: url(/assets/Background_Contacts.png);
+        background-size: 100% 787px;
+        background-repeat: no-repeat;
+
+        .headcontact{
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .redesSocy{
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 200px;
+            div{
+                height: 68px;
+                width: 400px;
+                align-items: center;
+                background-color: var(--gray-300);
+                border-radius: 8px;
+                padding: 20px;
+                gap: 12px;
+
+                a{
+                    width: 100%;
+                    text-align: start;
+                    font-family: var(--font-family-Maven-Pro);
+                }
+            }
+        }
     }
 }
 
