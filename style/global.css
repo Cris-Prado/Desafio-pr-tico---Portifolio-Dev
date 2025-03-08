@@ -39,7 +39,13 @@
 }
 
 body{
+    background-color: var(--gray-200);
     color: #E2E4E9;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
 header {
@@ -105,7 +111,109 @@ header {
     }
 }
 
+main{
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        justify-content: center;
+        align-items: center;
+        max-width: 1040px;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 8px;
+            margin-block: 72px 56px;
+        }
+
+        .grupos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 114px;
+
+            .grupBox{
+                width: 100%;
+                border-radius: 12px;
+                height: 280px;
+                width: 330px;
+                background-color: var(--gray-300);
+                padding: 12px;
+                gap: 20px;
+    
+                img{
+                    border-radius: 8px;
+                }
+
+                figcaption {
+                    gap: 8px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+
+    }
+
+    .services {
+        margin-block: 88px 120px;
+
+        .texthead{
+            text-align: center;
+        }
+        
+        .typebox{
+            margin-top: 56px;
+            height: 155px;
+            width: 280px;
+            padding: 20px;
+            gap: 20px;
+            border: 2px solid var(--gray-300);
+            border-radius: 12px;
+
+            div{
+                text-align: left;
+            }
+        }
+    }
+
+    .contact {
+        margin-block:128px 200px;
+        gap: 48px;
+
+        &>div{
+            text-align: center;
+        }
+
+        .redesbox{
+            gap: 16px;
+
+            div{
+                height: 68px;
+                width: 400px;
+                align-items: center;
+                background-color: var(--gray-300);
+                border-radius: 8px;
+                padding: 20px;
+                gap: 12px;
+
+                a{
+                    width: 100%;
+                    text-align: start;
+                    line-height: 140%;
+                    font-family: var(--font-family-Maven-Pro);
+                }
+            }
+        }
+
+    }
+}
+
 img {
     max-width: 100%;
 }
+
 

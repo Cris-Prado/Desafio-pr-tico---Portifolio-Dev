@@ -12,6 +12,10 @@
     gap: 8px;
 }
 
+.gap-24{
+    gap: 24px;
+}
+
 .sb {
     font: var(--subtitle);
 }
@@ -42,4 +46,12 @@
 
 .direction-column{
     flex-direction: column;
+}
+
+.color-red{
+    color: var(--red);
+}
+
+.color-purple{
+    color: var(--purple);
 }

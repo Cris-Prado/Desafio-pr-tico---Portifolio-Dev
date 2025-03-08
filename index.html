@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="/style/index.css">
     <title>Portifolio Dev</title>
 </head>
+
 <body>
-    <header>
+    <header class="container">
         <div class="container">
             <figure class="flex direction-column">
                 <img id="avatar" src="/assets/Avatar.png" alt="Avatar">
@@ -21,15 +25,18 @@
                         <h2 class="sb">Hello World! Meu nome é <span>Martina Santos</span> e sou</h2>
                         <h1 class="title-lg">Desenvolvedora Fullstack</h1>
                     </div>
-                    <p class="text-sm">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+                    <p class="text-sm">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo
+                        sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e
+                        eficazes para desafios complexos.</p>
                 </figcaption>
                 <div class="technology">
                     <span class="icontec flex" id="github"><img src="/assets/github.svg" alt="github">github</span>
                     <span class="icontec flex" id="html"><img src="/assets/html.svg" alt="html">html</span>
                     <span class="icontec flex" id="css"><img src="/assets/css.svg" alt="css">css</span>
-                    <span class="icontec flex" id="javascript"><img src="/assets/javascript.svg" alt="javascript">javascript</span>
+                    <span class="icontec flex" id="javascript"><img src="/assets/javascript.svg"
+                            alt="javascript">javascript</span>
                     <span class="icontec flex" id="react"><img src="/assets/React.svg" alt="React">react</span>
-                    <span class="icontec flex" id="nodejs"><img src="/assets/Node.js.svg" alt="Node.JS">Node.Js</span>                    
+                    <span class="icontec flex" id="nodejs"><img src="/assets/Node.js.svg" alt="Node.JS">Node.Js</span>
                 </div>
                 <span>
                     <img src="/assets/CaretDoubleDown.svg" alt="CaretDoubleDown">
@@ -37,5 +44,137 @@
             </figure>
         </div>
     </header>
+
+    <main class="flex direction-column">
+        <section class="container flex direction-column">
+            <div>
+                <h3 class="text-md color-red">Meu trabalho</h3>
+                <h2 class="title-md">Veja os projetos em destaque</h2>
+            </div>
+
+            <div class="grupos grid">
+                <figure class=" grupBox flex direction-column">
+                    <img src="/assets/Thumbnail_Project-01.png" alt="imagem01">
+                    <figcaption>
+                        <h2 class="title-sm">Travelgram</h2>
+                        <p class="text-sm">Rede social onde as pessoas mostram os registros de suas viagens pelo mundo
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class=" grupBox flex direction-column">
+                    <img src="/assets/Thumbnail_Project-02.png" alt="imagem01">
+                    <figcaption>
+                        <h2 class="title-sm">Tech News</h2>
+                        <p class="text-sm">Homepage de um portal de notícias sobre a área de tecnologia
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class=" grupBox flex direction-column">
+                    <img src="/assets/Thumbnail_Project-03.png" alt="imagem01">
+                    <figcaption>
+                        <h2 class="title-sm">Página de receita</h2>
+                        <p class="text-sm">Página com o passo a passo de uma receita para cupcakes
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class=" grupBox flex direction-column">
+                    <img src="/assets/Thumbnail_Project-04.png" alt="imagem01">
+                    <figcaption>
+                        <h2 class="title-sm">Zingen</h2>
+                        <p class="text-sm">Landing Page completa e responsiva de um aplicativo de Karaokê
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class=" grupBox flex direction-column">
+                    <img src="/assets/Thumbnail_Project-05.png" alt="imagem01">
+                    <figcaption>
+                        <h2 class="title-sm">Refund</h2>
+                        <p class="text-sm">Um sistema para pedido e acompanhamento de reembolso
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class=" grupBox flex direction-column">
+                    <img src="/assets/Thumbnail_Project-06.png" alt="imagem01">
+                    <figcaption>
+                        <h2 class="title-sm">Página de turismo</h2>
+                        <p class="text-sm">Página com as principais informações para quem quer viajar para Busan
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="texthead">
+                <h3 class="text-md color-red">Meu trabalho</h3>
+                <h2 class="title-md">Como posso ajudar o seu negócio</h2>
+            </div>
+
+            <div class="flex gap-24">
+                <div class="typebox grid">
+                    <img src="/assets/Devices.svg" alt="Devices">
+                    <div class="grid">
+                        <span class="title-sm">Websites e Aplicativos</span>
+                        <span class="text-sm"> Desenvolvimento de interfaces</span>
+                    </div>
+                </div>
+
+                <div class="typebox grid">
+                    <img src="/assets/HardDrives.svg" alt="Devices">
+                    <div class="grid">
+                        <span class="title-sm">API e banco de dados</span>
+                        <span class="text-sm">Criação de serviços do sistema </span>
+                    </div>
+                </div>
+
+                <div class="typebox grid">
+                    <img src="/assets//Infinity.svg" alt="Devices">
+                    <div class="grid">
+                        <span class="title-sm">DevOps</span>
+                        <span class="text-sm">Gestão e infraestrutura da aplicação</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact grid ">
+            <div>
+                <h3 class="text-md color-purple">Contato</h3>
+                <h2 class="title-md">Gostou do meu trabalho? </h2>
+                <span class="text-md">Entre em contato ou acompanhe as minhas redes sociais!</span>
+            </div>
+
+            <div>
+                <div class="redesbox grid">
+                    
+                    <div class="flex">
+                        <img src="/assets/LinkedinLogo.svg" alt="LinkedinLogo">
+                        <a href="#">Linkedin</a>
+                        <img src="/assets/ArrowUpRight.svg" class="flex" alt="ArrowUpRight">
+                    </div>
+
+                    <div class="flex">
+                        <img src="/assets//InstagramLogo.svg" alt="LinkedinLogo">
+                        <a href="#">Instagram</a>
+                        <img src="/assets/ArrowUpRight.svg" class="flex" alt="ArrowUpRight">
+                    </div>
+                    
+                    <div class="flex">
+                        <img src="/assets/GithubLogo.svg" alt="LinkedinLogo">
+                        <a href="#">GitHub</a>
+                        <img src="/assets/ArrowUpRight.svg" class="flex" alt="ArrowUpRight">
+                    </div>
+
+                    <div class="flex">
+                        <img src="/assets/EnvelopeSimple.svg" alt="LinkedinLogo">
+                        <a href="#">E-mail</a>
+                        <img src="/assets/ArrowUpRight.svg" class="flex" alt="ArrowUpRight">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
